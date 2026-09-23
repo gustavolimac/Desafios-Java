@@ -14,5 +14,7 @@ public class Exercicio6 {
         double reajuste = valor + valor * 0.05;
 
         System.out.println("Valor ajustado: " + reajuste);
+
+        sc.close();
     }
 }

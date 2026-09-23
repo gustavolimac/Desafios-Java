@@ -23,5 +23,6 @@ public class Exercicio1 {
             System.out.println("A soma é menor que o valor C");
         }
 
+        sc.close();
     }
 }

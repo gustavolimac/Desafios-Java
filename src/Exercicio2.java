@@ -25,6 +25,6 @@ public class Exercicio2 {
         else{
             System.out.print("e impar");
         }
-
+        sc.close();
     }
 }

@@ -18,5 +18,7 @@ public class Exercicio5 {
         double recebeSalario = salario / salarioMinimo;
 
         System.out.printf("Você recebe %.2f salarios minimos", recebeSalario);
+
+        sc.close();
     }
 }

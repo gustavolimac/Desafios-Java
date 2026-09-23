@@ -17,5 +17,6 @@ public class Exercicio4 {
         System.out.println("Antecessor: " + antecessor);
         System.out.println("Sucessor: " + sucessor);
 
+        sc.close();
     }
 }
