@@ -12,7 +12,7 @@ public class Exercicio17 {
         System.out.print("Digite a temperatura em Fahrenheit: ");
         double temperaturaF = sc.nextDouble();
 
-        double temperaturaC = (temperaturaF - 32) / 1.8;
+        double temperaturaC = (5 * (temperaturaF-32) / 9);
 
         System.out.println("Temperatura em Fahrenheit: " + temperaturaF);
         System.out.println("Temperatura em Celsius: " + temperaturaC);

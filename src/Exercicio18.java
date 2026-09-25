@@ -1,0 +1,19 @@
+/*
+18 - Francisco tem 1,50m e cresce 2 centímetros por ano, enquanto Sara tem 1,10m e cresce 3 centímetros por ano.
+Faça um algoritmo que calcule e imprima na tela em quantos anos serão necessários para que Francisco seja maior
+que Sara.
+ */
+public class Exercicio18 {
+    public static void main(String[] args) {
+        double tamanhoFrancisco = 150;
+        double tamanhoSara = 110;
+        int anos = 0;
+
+        while(tamanhoFrancisco >= tamanhoSara){
+            tamanhoFrancisco += 2;
+            tamanhoSara += 3;
+            anos++;
+        }
+        System.out.println("Vai precisar de " + anos + " anos para Sara ser maior que Francisco");
+    }
+}
