@@ -28,5 +28,7 @@ public class Exercicio16 {
             triangulo = "invalido";
         }
         System.out.println(triangulo);
+
+        sc.close();
     }
 }
